@@ -340,27 +340,6 @@ docker compose up -d
 ```bash
 npm run dev
 ```
-
-The API will run on:
-
-```text
-http://localhost:3000
-```
-
-Health check:
-
-```http
-GET http://localhost:3000/health
-```
-
-Expected response:
-
-```json
-{
-  "status": "ok"
-}
-```
-
 ## Postman Testing Flow
 
 Use the APIs in this order:
