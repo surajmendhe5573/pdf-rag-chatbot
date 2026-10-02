@@ -93,49 +93,6 @@ Answer + Source Pages/Snippets
 | Multer | PDF upload handling |
 | Postman | API testing |
 
-## Project Structure
-
-```text
-pdf-rag-chatbot/
-│
-├── src/
-│   ├── config/
-│   │   └── env.ts
-│   │
-│   ├── controllers/
-│   │   └── pdf.controller.ts
-│   │
-│   ├── middleware/
-│   │   ├── errorHandler.ts
-│   │   └── upload.ts
-│   │
-│   ├── routes/
-│   │   └── index.ts
-│   │
-│   ├── services/
-│   │   ├── ingest.service.ts
-│   │   ├── pdf.service.ts
-│   │   ├── rag.service.ts
-│   │   └── vectorstore.service.ts
-│   │
-│   ├── types/
-│   │
-│   ├── utils/
-│   │   ├── asyncHandler.ts
-│   │   └── httpError.ts
-│   │
-│   ├── app.ts
-│   └── server.ts
-│
-├── chroma_data/
-├── .env
-├── .gitignore
-├── docker-compose.yml
-├── package.json
-├── package-lock.json
-└── tsconfig.json
-```
-
 ## How RAG Works in This Project
 
 ### 1. Upload a PDF
